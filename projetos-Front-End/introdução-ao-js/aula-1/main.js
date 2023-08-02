@@ -19,9 +19,17 @@
 
 function trocarTitulo (){
     const tituloAtual = document.getElementById('titulo')
-    const tituloNovo = prompt('Digite um título')
+    const tituloNovo = prompt('Digite o nome da escola')
+    const corEscolhida = prompt ('Digite sua cor')
     tituloAtual.textContent = `Escola ${tituloNovo}`
 
+    if(corEscolhida == 'amarelo'){
+        tituloAtual.className=''
+        tituloAtual.classList.add('amarelo')
+    } else if (corEscolhida == 'verde'){
+        tituloAtual.className=''
+        tituloAtual.classList.add('verde')
+    }
 }
 
 const botaoTrocarTitulo = document.getElementById('trocar-titulo')
@@ -42,6 +50,17 @@ function cadastro(){
     const novaCidade = prompt('Digite uma cidade')
     cidade.textContent = `Cidade: ${novaCidade}`
 
+    const media = document.getElementById('media')
+    const novaMedia = prompt('Digite Média')
+    media.textContent = `Média: ${novaMedia}`
+
+    if(media <= 5){
+        tituloAtual.className=''
+        tituloAtual.classList.add('vermelho')
+    } else if(media > 5){
+        tituloAtual.className=''
+        tituloAtual.classList.add('azul')
+    }
 }
 
 const botaoMudarCadastro = document.getElementById('mudarCadastro')
