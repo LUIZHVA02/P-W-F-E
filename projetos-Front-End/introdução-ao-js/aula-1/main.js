@@ -52,15 +52,17 @@ function cadastro(){
 
     const media = document.getElementById('media')
     const novaMedia = prompt('Digite Média')
-    media.textContent = `Média: ${novaMedia}`
+    
 
-    if(media <= 5){
-        tituloAtual.className=''
-        tituloAtual.classList.add('vermelho')
-    } else if(media > 5){
-        tituloAtual.className=''
-        tituloAtual.classList.add('azul')
+    if(novaMedia <= 5){
+        media.className=''
+        media.classList.add('vermelho')
+    } else if(novaMedia > 5){
+        media.className=''
+        media.classList.add('azul')
     }
+
+    media.textContent = `Média: ${novaMedia}`
 }
 
 const botaoMudarCadastro = document.getElementById('mudarCadastro')
