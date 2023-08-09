@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+.aulas{
+    width: 100vw;
+    display: grid;
+    grid-template-areas: 
+    "aula-1 aula-2"
+    "aula-3 aula-4"
+    "aula-5 aula-6";
+    justify-content: center;
+    align-items: center;
+    padding-block: 16px;
+    gap: 16px;
+}
+
+.aula-1{
+    background-color: aqua;
+    height: 150px;
+    width: 400px;
+
+}
+.aula-2{
+    background-color: aqua;
+    height: 150px;
+    width: 400px;
+}
+.aula-3{
+    background-color: aqua;
+    height: 150px;
+    width: 400px;
+
+}
+.aula-4{
+    background-color: aqua;
+    height: 150px;
+    width: 400px;
+}
+.aula-5{
+    background-color: aqua;
+    height: 150px;
+    width: 400px;
+
+}
+.aula-6{
+    background-color: aqua;
+    height: 150px;
+    width: 400px;
+}
