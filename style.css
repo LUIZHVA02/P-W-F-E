@@ -7,6 +7,13 @@ a{
     text-decoration: none;
 }
 
+.titulo{
+    justify-content: center;
+    font-size: 300%;
+    color: black;
+   
+}
+
 .aulas{
     width: 100vw;
     display: grid;
@@ -15,41 +22,45 @@ a{
     "aula-3 aula-4"
     "aula-5 aula-6";
     justify-content: center;
-    align-items: center;
     padding-block: 16px;
     gap: 16px;
+    padding-inline: 32px;
+    font-size: 40px;
 }
 
 .aula-1{
-    background-color: aqua;
+    background-color: blue;
     height: 150px;
-    width: 400px;
-
+    width: 500px;
+    color: white;
 }
 .aula-2{
-    background-color: aqua;
+    background-color: blue;
     height: 150px;
-    width: 400px;
+    width: 500px;
+    color: white;
 }
 .aula-3{
-    background-color: aqua;
+    background-color: blue;
     height: 150px;
-    width: 400px;
-
+    width: 500px;
+    color: white;
 }
 .aula-4{
-    background-color: aqua;
+    background-color: blue;
     height: 150px;
-    width: 400px;
+    width: 500px;
+    color: white;
 }
 .aula-5{
-    background-color: aqua;
+    background-color: blue;
     height: 150px;
-    width: 400px;
-
+    width: 500px;
+    color: white;
 }
 .aula-6{
-    background-color: aqua;
+    background-color: blue;
     height: 150px;
-    width: 400px;
+    width: 500px;
+    color: white;
 }
