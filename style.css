@@ -11,7 +11,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 300%;
+    font-size: 64px;
     color: black;
     width: 100vw;
 }
@@ -92,6 +92,50 @@ a{
     border-radius: 20px;
 }
 .link_aula_6{
+    color: white;
+    font-size: 32px;
+}
+
+.aula-7{
+    background-color: blue;
+    height: 150px;
+    width: 500px;
+    border-radius: 20px;
+}
+.link_aula_7{
+    color: white;
+    font-size: 32px;
+}
+
+.aula-8{
+    background-color: blue;
+    height: 150px;
+    width: 500px;
+    border-radius: 20px;
+}
+.link_aula_8{
+    color: white;
+    font-size: 32px;
+}
+
+.aula-9{
+    background-color: blue;
+    height: 150px;
+    width: 500px;
+    border-radius: 20px;
+}
+.link_aula_9{
+    color: white;
+    font-size: 32px;
+}
+
+.aula-10{
+    background-color: blue;
+    height: 150px;
+    width: 500px;
+    border-radius: 20px;
+}
+.link_aula_10{
     color: white;
     font-size: 32px;
 }
