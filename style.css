@@ -32,35 +32,64 @@ a{
     background-color: blue;
     height: 150px;
     width: 500px;
-    color: white;
+    border-radius: 20px;
 }
+.link_aula_1{
+    color: white;
+    font-size: 32px;
+}
+
 .aula-2{
     background-color: blue;
     height: 150px;
     width: 500px;
-    color: white;
+    border-radius: 20px;
 }
+.link_aula_2{
+    color: white;
+    font-size: 32px;
+}
+
 .aula-3{
     background-color: blue;
     height: 150px;
     width: 500px;
-    color: white;
+    border-radius: 20px;
 }
+.link_aula_3{
+    color: white;
+    font-size: 32px;
+}
+
 .aula-4{
     background-color: blue;
     height: 150px;
     width: 500px;
-    color: white;
+    border-radius: 20px;
 }
+.link_aula_4{
+    color: white;
+    font-size: 32px;
+}
+
 .aula-5{
     background-color: blue;
     height: 150px;
     width: 500px;
-    color: white;
+    border-radius: 20px;
 }
+.link_aula_5{
+    color: white;
+    font-size: 32px;
+}
+
 .aula-6{
     background-color: blue;
     height: 150px;
     width: 500px;
+    border-radius: 20px;
+}
+.link_aula_6{
     color: white;
+    font-size: 32px;
 }
