@@ -61,3 +61,13 @@ button{
     justify-content: space-around;
     align-items: center;
 }
+
+.ordem{
+    height: 32px;
+    width: 75px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
