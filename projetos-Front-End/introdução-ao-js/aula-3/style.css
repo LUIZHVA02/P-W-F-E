@@ -42,3 +42,22 @@ button{
     align-items: center;
 
 }
+
+.situacao{
+    width: 75px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nota5{
+    height: 32px;
+    width: 64px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
