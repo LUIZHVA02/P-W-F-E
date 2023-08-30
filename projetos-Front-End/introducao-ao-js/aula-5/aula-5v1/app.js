@@ -1,20 +1,21 @@
 'use strict'
 
 const funcioarios = [
+    
+    {
+        nome: 'Maria Souza',
+        cargo: 'Designer',
+        imagem: 'maria.jpg'
+    },
     {
         nome:'Hugo Pereira',
         cargo: 'Front End',
         imagem: 'hugo.jpg'
     },
     {
-        nome: 'Maria Souza',
-        cargo: 'Designer',
-        Imagem: 'maria.jpg'
-    },
-    {
         nome: 'João Silva',
         cargo: ' DBA',
-        Imagem: 'joao.jpg'
+        imagem: 'joao.jpg'
     },
     {
         nome: 'Ana Maria',
