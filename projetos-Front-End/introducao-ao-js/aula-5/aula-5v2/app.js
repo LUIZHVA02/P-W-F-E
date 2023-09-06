@@ -49,7 +49,7 @@ const perfis = [
     {
         nome: 'Juliana Pereira',
         imagem: 'jerome.jpg',
-        mensagem: 'Joysi diz: Estarei enviando o comprovante...',
+        mensagem: 'Saulo diz: Estarei enviando o comprovante...',
         appIcon: 'instagram.jpg',
         contato: 'Saulo',
         tempo: '30 minutos',

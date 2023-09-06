@@ -8,6 +8,22 @@
     color: white;
     font-size: 32px;
 }
+.titulo{
+    width: 100vw;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.aula5{
+    width: 100vw;
+    display: grid;
+    grid-template-areas: 
+    "aula5-1 aula5-2";
+    justify-content: center;
+    align-items: center;
+}
 
 .aula5-1{
     background-color: blue;
