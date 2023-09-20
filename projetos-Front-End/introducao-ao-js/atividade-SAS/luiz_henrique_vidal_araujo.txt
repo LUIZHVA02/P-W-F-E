@@ -1,0 +1,5 @@
+https://api.artic.edu/docs/#quick-start
+
+Criar um aplicativo que filtre os resultados por tipo de obra, 
+por autor, pelo ano em que a obra foi feito, por periodo histórico
+ou por dimensionamento.

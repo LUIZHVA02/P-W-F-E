@@ -103,3 +103,4 @@ function mostrarConversas(clientes) {
     cardPerfilCliente.replaceChildren(clienteIMG, nome, mensagem, cardContatoEmpregado)
     cardContatoEmpregado.replaceChildren()
 }
+clientes.forEach(mostrarConversas);
