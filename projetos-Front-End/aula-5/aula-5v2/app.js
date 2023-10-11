@@ -48,7 +48,7 @@ const clientes = [
     },
     {
         nome: 'Juliana Pereira',
-        imagem: 'jerome.png',
+        imagem: 'juliana.png',
         mensagem: 'Saulo diz: Estarei enviando o comprovante...',
         appIcon: 'instagram.jpg',
         empregado: 'Saulo',
@@ -57,7 +57,7 @@ const clientes = [
     },
     {
         nome: 'Henrique Martins',
-        imagem: 'jerome.png',
+        imagem: 'henrique.png',
         mensagem: 'Joysi diz: Estarei enviando o comprovante...',
         appIcon: 'whatsapp.jpg',
         empregado: 'Joysi',
@@ -69,38 +69,42 @@ const clientes = [
 function mostrarConversas(clientes) {
     const card = document.getElementById('card')
 
-    const cardContainer = document.getElementById('cardContainer')
+    const cardContainer = document.createElement('div')
+    cardContainer.classList.add('cardContainer')
 
     const cardPerfilCliente = document.createElement('div')
     cardPerfilCliente.classList.add('cardPerfilCliente')
 
     const clienteIMG = document.createElement('div')
-    clienteIMG.classList.add(clienteIMG)
-
+    clienteIMG.classList.add('clienteIMG')
     const imagem = document.createElement('img')
     imagem.src = `./img/${clientes.imagem}`
     imagem.alt = clientes.imagem
     
+
     const nome = document.createElement('h2')
     nome.textContent = clientes.nome
-    
     const mensagem = document.createElement('p')
     mensagem.textContent = clientes.mensagem
 
+
     const cardContatoEmpregado = document.createElement('div')
     cardContatoEmpregado.classList.add('cardContatoEmpregado')
-    
+    const empregado = document.createElement('h2')
+
+
     const icon = document.createElement('div')
     icon.classList.add('icon')
-
     const iconMidia = document.createElement('img')
     iconMidia.src = `./icons/${clientes.appIcon}`
     iconMidia.alt = clientes.appIcon
 
 
-    card.replaceChild(cardContainer)
-    cardContainer.replaceChild(cardPerfilCliente)
+    card.appendChild(cardContainer)
+    cardContainer.appendChild(cardPerfilCliente)
     cardPerfilCliente.replaceChildren(clienteIMG, nome, mensagem, cardContatoEmpregado)
-    cardContatoEmpregado.replaceChildren()
+    clienteIMG.appendChild(imagem)
+    cardContatoEmpregado.appendChild(empregado)
+    icon.appendChild(iconMidia)
 }
-clientes.forEach(mostrarConversas);
+clientes.forEach(mostrarConversas)

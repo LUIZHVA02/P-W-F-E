@@ -1,0 +1,9 @@
+{
+	student: 'Ryan Alves',
+        class: 'ds1ait-b',
+        project_name: 'Harry Potter Wiki',
+        project_image: 'https://github.com/RyanAlvesz/harry_potter/raw/main/img/hp_wiki.png',
+        figma: 'https://www.figma.com/file/lfhuuXMmv9WVn4yyYs4Uor/Harry-Potter?type=design&node-id=0%3A1&mode=design&t=nPPzwnHYPWPXps39-1',
+        github: 'https://github.com/RyanAlvesz/harry_potter',
+        site: 'https://ryanalvesz.github.io/harry_potter/'
+}

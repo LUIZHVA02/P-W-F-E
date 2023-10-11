@@ -22,7 +22,8 @@ a{
     grid-template-areas: 
     "aula-1 aula-2"
     "aula-3 aula-4"
-    "aula-5 aula-6";
+    "aula-5 aula-6"
+    "aula-7 atividade_SAS";
     justify-content: center;
     padding-block: 16px;
     gap: 16px;
@@ -30,112 +31,13 @@ a{
     font-size: 40px;
 }
 
-.aula-1{
+.aula{
     background-color: blue;
     height: 150px;
     width: 500px;
     border-radius: 20px;
 }
-.link_aula_1{
-    color: white;
-    font-size: 32px;
-}
-
-.aula-2{
-    background-color: blue;
-    height: 150px;
-    width: 500px;
-    border-radius: 20px;
-}
-.link_aula_2{
-    color: white;
-    font-size: 32px;
-}
-
-.aula-3{
-    background-color: blue;
-    height: 150px;
-    width: 500px;
-    border-radius: 20px;
-}
-.link_aula_3{
-    color: white;
-    font-size: 32px;
-}
-
-.aula-4{
-    background-color: blue;
-    height: 150px;
-    width: 500px;
-    border-radius: 20px;
-}
-.link_aula_4{
-    color: white;
-    font-size: 32px;
-}
-
-.aula-5{
-    background-color: blue;
-    height: 150px;
-    width: 500px;
-    border-radius: 20px;
-}
-.link_aula_5{
-    color: white;
-    font-size: 32px;
-}
-
-.aula-6{
-    background-color: blue;
-    height: 150px;
-    width: 500px;
-    border-radius: 20px;
-}
-.link_aula_6{
-    color: white;
-    font-size: 32px;
-}
-
-.aula-7{
-    background-color: blue;
-    height: 150px;
-    width: 500px;
-    border-radius: 20px;
-}
-.link_aula_7{
-    color: white;
-    font-size: 32px;
-}
-
-.aula-8{
-    background-color: blue;
-    height: 150px;
-    width: 500px;
-    border-radius: 20px;
-}
-.link_aula_8{
-    color: white;
-    font-size: 32px;
-}
-
-.aula-9{
-    background-color: blue;
-    height: 150px;
-    width: 500px;
-    border-radius: 20px;
-}
-.link_aula_9{
-    color: white;
-    font-size: 32px;
-}
-
-.aula-10{
-    background-color: blue;
-    height: 150px;
-    width: 500px;
-    border-radius: 20px;
-}
-.link_aula_10{
+.link_aula{
     color: white;
     font-size: 32px;
 }
