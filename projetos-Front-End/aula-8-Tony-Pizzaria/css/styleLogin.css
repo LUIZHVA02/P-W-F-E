@@ -1,6 +1,6 @@
 body{
     height: 100vh;
-    background-image: url(../img/pizza_back_1.webp);
+    background-image: url(../img/webp/pizza_back_1.webp);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -43,7 +43,7 @@ main{
 }
 
 .informacoes-de-login{
-    width: 300px;
+    width: 320px;
     height: 180px;
     display: flex;
     flex-direction: column;
