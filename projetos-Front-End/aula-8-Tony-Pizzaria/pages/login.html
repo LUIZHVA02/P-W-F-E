@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="./styleLogin.css">
+    <link rel="stylesheet" href="../css/styleLogin.css">
     <link rel="stylesheet" href="../css/botao.css">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/root.css">
@@ -28,7 +28,7 @@
                 <div class="img-email">
                 <img src="../img/Email.webp" alt="icon email">
                 </div>
-                <input type="text" name="email-input" id="input-email">
+                <input type="email" name="email-input" id="input-email" placeholder="Seu e-mail aqui">
                 
             </div>
             <div class="underline"></div>
@@ -37,14 +37,22 @@
                 <div class="img-senha">
                 <img src="../img/Lock.webp" alt="icon email">
                 </div>
-                <input type="text" name="senha-input" id="input-senha">
+                <input type="password" name="senha-input" id="input-senha" placeholder="Sua senha">
             </div>
             <div class="underline"></div>
 
-            <a href="./pages/home.html" class="botao">Entar</a>
+            <div class="entrarOuRedefinir">
+                <a href="./pages/home.html" class="botao">Entar</a>
+                <a href="./pages/redefinicaoSenha.html" class="esqueciASenha">Esqueci a senha</a>
+            </div>
+            
         </div>
 
-        <a href="./pages/criarConta.html" class="botao">Criar Conta</a>
+        <div class="criarConta">
+            <p>Ainda não tem uma conta?</p>
+            <a href="./pages/criarConta.html" class="botao botao-transparente">Criar Conta</a>
+        </div>
+        
     </main>
 
 </body>

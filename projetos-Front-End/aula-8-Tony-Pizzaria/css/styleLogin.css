@@ -62,12 +62,21 @@ main{
 }
 
 #input-email{
-    width: 225px;
+    width: 220px;
     height: 30px;
-    background: #fff5;
+    background: transparent;
     border-color: transparent;
     color: #fff;
     border-radius: 5px;
+}
+
+#input-email::placeholder{
+    color: #fff;
+    opacity: 1;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 .img-email{
@@ -76,12 +85,21 @@ main{
 }
 
 #input-senha{
-    width: 225px;
+    width: 220px;
     height: 30px;
-    background:  #fff5;
+    background:  transparent;
     border-color: transparent;
     color: #fff;
     border-radius: 5px;
+}
+
+#input-senha::placeholder{
+    color: #fff;
+    opacity: 1;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 .info-senha{
@@ -101,4 +119,37 @@ main{
     height: 2px;
     width: 250px;
     background-color: #fff;
+}
+
+.entrarOuRedefinir{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.esqueciASenha{
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 150px;
+}
+
+.criarConta{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.criarConta p{
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
 }
