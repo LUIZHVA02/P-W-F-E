@@ -31,10 +31,13 @@ main{
 }
 
 .conteudo-container{
+    font-family: 'Roboto', sans-serif;
     color: #fff;
 }
 
 .conteudo-container h1{
+    font-size: 36px;
+    font-weight: normal;
     width: 230px;
 }
 
