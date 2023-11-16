@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <script src="../javaScript/homeJS.js" defer></script>
     <link rel="stylesheet" href="../css/styleHome.css">
     <link rel="stylesheet" href="../css/botao.css">
     <link rel="stylesheet" href="../css/reset.css">
@@ -32,34 +33,90 @@
             </div>
         </div>
     </header>
+
     <main>
         <div class="carrosselCategorias">
+
             <h1>Categorias</h1>
 
-            <div class="categorias">
+            <!-- 
+            use no modelo desktop
+            https://www.youtube.com/watch?v=QAD0K112tlQ
+            <button class="arrow_right" aria-label="item-posterior">></button>
+            <button class="arrow_left" aria-label="item-anterior"><</button> -->
 
-                <div class="tudo item_categoria">
-                    <img src="../img/webp/logo.webp" alt="logo_pequeno" id="logo_pequeno">
+            <div class="categoriaHolder">
+                <div class="categorias">
+
+                    <div class="tudo item_categoria">
+                        <img src="../img/webp/logo.webp" alt="logo_pequeno" id="logo_pequeno-img"
+                            class="img-logo_pequeno img-categoria">
+                    </div>
+
+                    <div class="bebidas item_categoria">
+                        <img src="../img/webp/kawaii-Soda.webp" alt="bebidas" id="bebidas-img"
+                            class="img-bebidas img-categoria">
+                    </div>
+
+                    <div class="acompanhamentos item_categoria">
+                        <img src="../img/webp/watermelon.webp" alt="acompanhamentos" id="acompanhamentos-img"
+                            class="img-acompanhamentos img-categoria">
+                    </div>
+
+                    <div class="pizzas item_categoria">
+                        <img src="../img/webp/pizza.webp" alt="pizza" id="pizza-img" class="img-pizza img-categoria">
+                    </div>
+
+                    <div class="sobremesas_maiores item_categoria">
+                        <img src="../img/webp/ice-Cream-Sundae.webp" alt="sobremesas_maiores"
+                            id="sobremesas_maiores-img" class="img-sobremesas_maiores img-categoria">
+                    </div>
+
+                    <div class="sobremesas_menores item_categoria">
+                        <img src="../img/webp/kawaii-Ice-Cream.webp" alt="sobremesas_menores"
+                            id="sobremesas_menores-img" class="img-sobremesas_menores img-categoria">
+                    </div>
                 </div>
+            </div>
+        </div>
 
-                <div class="bebidas item_categoria">
-                    <img src="../img/webp/kawaii-Soda.webp" alt="bebidas" id="bebidas">
-                </div>
+        <div class="minhas-pizzas-favoritas">
+            <h1>Minhas pizzas favoritas</h1>
 
-                <div class="acompanhamentos item_categoria">
-                    <img src="../img/webp/watermelon.webp" alt="acompanhamentos" id="acompanhamentos">
-                </div>
+            <div class="pizzas-holder">
+                <div class="pizzas-favoritas">
+                    <div class="calabreza-queijo">
+                        <img src="../img/webp/pizza-de-calabreza-com-queijo.webp" alt="calabreza-queijo"
+                            class="calabreza-queijo-img" id="img-calabreza-quejo">
+                        <div class="nome-pizza">
+                            <h1>Pizza de calabreza com queijo</h1>
+                        </div>
+                        <div class="preco-pizza">
+                            <h1>R$ 16,00</h1>
+                        </div>
+                    </div>
 
-                <div class="pizzas item_categoria">
-                    <img src="../img/webp/pizza.webp" alt="pizza" id="pizza">
-                </div>
+                    <div class="calabreza-queijo">
+                        <img src="../img/webp/pizza-de-calabreza-com-queijo.webp" alt="calabreza-queijo"
+                            class="calabreza-queijo-img" id="img-calabreza-quejo">
+                        <div class="nome-pizza">
+                            <h1>Pizza de peperoni com queijo</h1>
+                        </div>
+                        <div class="preco-pizza">
+                            <h1>R$ 16,00</h1>
+                        </div>
+                    </div>
 
-                <div class="sobremesas_maiores item_categoria">
-                    <img src="../img/webp/ice-Cream-Sundae.webp" alt="sobremesas_maiores" id="sobremesas_maiores">
-                </div>
-
-                <div class="sobremesas_menores item_categoria">
-                    <img src="../img/webp/kawaii-Ice-Cream.webp" alt="sobremesas_menores" id="sobremesas_menores">
+                    <div class="calabreza-queijo">
+                        <img src="../img/webp/pizza-de-calabreza-com-queijo.webp" alt="calabreza-queijo"
+                            class="calabreza-queijo-img" id="img-calabreza-quejo">
+                        <div class="nome-pizza">
+                            <h1>Pizza brotinho de calabreza com queijo</h1>
+                        </div>
+                        <div class="preco-pizza">
+                            <h1>R$ 16,00</h1>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
