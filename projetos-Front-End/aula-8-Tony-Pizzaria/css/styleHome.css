@@ -244,7 +244,7 @@ header {
     border-radius: 8px;
 }
 
-.fundoPreto {
+.fundoPreto-favoritos {
     position: relative;
     margin-top: -48px;
     height: 48px;
@@ -254,7 +254,7 @@ header {
     border-bottom-left-radius: 8px;
 }
 
-.nome-pizza {
+.nome-pizza-favoritos {
     position: relative;
     margin-top: -42px;
     margin-left: 10px;
@@ -266,7 +266,7 @@ header {
     font-family: 'Roboto', sans-serif;
 }
 
-.preco-pizza {
+.preco-pizza-favoritos {
     color: #fff;
     position: relative;
     height: 28px;
