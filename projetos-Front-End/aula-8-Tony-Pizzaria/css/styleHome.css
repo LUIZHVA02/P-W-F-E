@@ -1,4 +1,4 @@
-body{
+body {
     height: 100vh;
     display: flex;
     align-items: center;
@@ -7,21 +7,21 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-body::after{
+body::after {
     position: absolute;
     content: "";
     inset: 0;
-    background: linear-gradient(0deg, #fff0 0%, rgba(322,119,6,1) 158%);
+    background: linear-gradient(0deg, #fff0 0%, rgba(322, 119, 6, 1) 158%);
     z-index: -1;
 }
 
-header{
+header {
     width: max-content;
     height: 150px;
     overflow: hidden;
 }
 
-.conteudo_header{
+.conteudo_header {
     width: max-content;
     height: max-content;
     display: flex;
@@ -30,7 +30,7 @@ header{
     gap: 10px;
 }
 
-.perfil{
+.perfil {
     width: 360px;
     height: 70px;
     display: flex;
@@ -38,34 +38,34 @@ header{
     flex-direction: row;
 }
 
-.texto_perfil{
+.texto_perfil {
     color: #fff;
     font-family: 'Roboto', sans-serif;
 }
 
-.texto_perfil h1{
+.texto_perfil h1 {
     font-weight: bold;
     font-size: 36px;
 }
 
-.texto_perfil p{
+.texto_perfil p {
     font-weight: 500;
     font-size: 24px;
 }
 
-.img_perfil{
+.img_perfil {
     height: 64px;
-    width: 64px;    
+    width: 64px;
     border-radius: 100%;
     overflow: hidden;
 }
 
-#fotoPerfil{
+#fotoPerfil {
     height: 64px;
     width: 64px;
 }
 
-.barra_pesquisa{
+.barra_pesquisa {
     width: 360px;
     height: 50px;
     display: flex;
@@ -75,7 +75,7 @@ header{
     border-radius: 16px;
 }
 
-#barra_pesquisa{
+#barra_pesquisa {
     margin-left: 15px;
     width: 300px;
     height: 50px;
@@ -85,13 +85,13 @@ header{
     outline: none;
 }
 
-.barra_pesquisa::placeholder{
+.barra_pesquisa::placeholder {
     color: #fff5;
     font-weight: 300;
     font-size: 16px;
 }
 
-.divLupa{
+.divLupa {
     margin-right: 10px;
     margin-top: 9px;
     width: 32px;
@@ -100,15 +100,15 @@ header{
     align-items: center;
 }
 
-#imgLupa{
+#imgLupa {
     width: 32px;
     height: 32px;
 }
 
-.carrosselCategorias{
+.carrosselCategorias {
     position: relative;
-    padding: 15px;
-    height: 144px;
+    padding: 5px;
+    height: 120px;
     width: 360px;
     margin: 0 auto;
     display: flex;
@@ -116,11 +116,10 @@ header{
     gap: 10px;
 }
 
-.carrosselCategorias h1{
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-weight: 36px;
+.titulo-categorias {
     color: #fff;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.50);
+    font-size: 20px;
 }
 
 /* .arrow_left{
@@ -162,18 +161,19 @@ header{
     opacity: 1;
 } */
 
-.categoriaHolder{
+.categoriaHolder {
     height: 64px;
-    width: 332px;
+    width: 360px;
     display: flex;
     flex-direction: row;
     overflow-x: auto;
 }
-.categoriaHolder::-webkit-scrollbar{
+
+.categoriaHolder::-webkit-scrollbar {
     display: none;
 }
 
-.categorias{
+.categorias {
     height: 64px;
     width: 360px;
     display: flex;
@@ -183,7 +183,7 @@ header{
     align-items: center;
 }
 
-.item_categoria{
+.item_categoria {
     height: 56px;
     width: 56px;
     display: flex;
@@ -194,12 +194,115 @@ header{
     flex-shrink: 0;
 }
 
-.img-categoria{
+.img-categoria {
     height: 36px;
     width: 36px;
 }
 
-.minhas-pizzas-favoritas{
-    height: 500px;
+.minhas-pizzas-favoritas {
+    padding: 5px;
+    height: 175px;
     width: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.titulo-pizzas-favoritas {
+    color: #fff;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.50);
+    font-size: 20px;
+}
+
+.pizzas-holder {
+    height: 180px;
+    width: 360px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+}
+
+.pizzas-holder::-webkit-scrollbar {
+    display: none;
+}
+
+.pizzas-favoritas {
+    height: 130px;
+    width: 360px;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row nowrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.itens_favoritos {
+    height: 120px;
+    width: 200px;
+    overflow: hidden;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+
+.fundoPreto {
+    position: relative;
+    margin-top: -48px;
+    height: 48px;
+    width: 160px;
+    background-color: #000;
+    opacity: 0.6;
+    border-bottom-left-radius: 8px;
+}
+
+.nome-pizza {
+    position: relative;
+    margin-top: -42px;
+    margin-left: 10px;
+    height: 48px;
+    width: 150px;
+    color: #fff;
+    opacity: 1;
+    font-size: 7px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.preco-pizza {
+    color: #fff;
+    position: relative;
+    height: 28px;
+    width: 80px;
+    margin-top: -90px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-secundaria);
+    font-size: 8px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 25px;
+}
+
+.img-calabreza-queijo {
+    height: 120px;
+    width: 200px;
+    background-size: cover;
+    background-image: url(../img/webp/pizza-de-calabreza-com-queijo.webp);
+    background-position: center;
+}
+
+.img-peperoni-com-queijo {
+    height: 120px;
+    width: 200px;
+    background-size: cover;
+    background-image: url(../img/webp/pizza-de-peperoni-com-queijo.webp);
+    background-position: center;
+}
+
+.img-brotinho-calabreza {
+    height: 120px;
+    width: 200px;
+    background-size: cover;
+    background-image: url(../img/webp/pizza-brotinho-de-calabreza-com-queijo.webp);
+    background-position: center;
 }
