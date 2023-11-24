@@ -128,7 +128,7 @@ main{
 
 .entrarOuRedefinir{
     width: 100%;
-    height: 180px;
+    height: 140px;
     display: flex;
     flex-direction: column;
     align-items: center;

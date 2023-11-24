@@ -63,7 +63,5 @@ const usuarioAtualizado = {
 listarUsuarios()
 // cadastrarUsuario(novoUsuario)
 // atualizarUsuarios(usuarioAtualizado)
+// deletarUsuario(n)
 
-// for(let n = 130; n !=15; n++){
-//     deletarUsuario(n)
-// }
