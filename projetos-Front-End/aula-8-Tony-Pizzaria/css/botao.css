@@ -24,3 +24,13 @@
     justify-content: center;
     align-items: center;
 }
+
+.preco_config{
+    height: 28px;
+    width: 80px;
+    color: #fff;
+    background-color: var(--cor-secundaria);
+    font-size: 8px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 25px;
+}

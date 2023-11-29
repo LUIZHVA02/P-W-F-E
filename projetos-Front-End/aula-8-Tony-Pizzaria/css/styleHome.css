@@ -267,20 +267,15 @@ header {
 }
 
 .preco-pizza-favoritos {
-    color: #fff;
     position: relative;
-    height: 28px;
-    width: 80px;
+
     margin-top: -90px;
     margin-left: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--cor-secundaria);
-    font-size: 8px;
-    font-family: 'Roboto', sans-serif;
-    border-radius: 25px;
+
 }
 
 .img-calabreza-queijo {
