@@ -163,7 +163,7 @@ header {
 
 .categoriaHolder {
     height: 64px;
-    width: 360px;
+    width: 350px;
     display: flex;
     flex-direction: row;
     overflow-x: auto;
@@ -216,7 +216,7 @@ header {
 
 .pizzas-holder {
     height: 180px;
-    width: 360px;
+    width: 350px;
     display: flex;
     flex-direction: row;
     overflow-x: auto;
@@ -268,14 +268,13 @@ header {
 
 .preco-pizza-favoritos {
     position: relative;
-
     margin-top: -90px;
     margin-left: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    font-size: 8px;
 }
 
 .img-calabreza-queijo {
@@ -299,5 +298,209 @@ header {
     width: 200px;
     background-size: cover;
     background-image: url(../img/webp/pizza-brotinho-de-calabreza-com-queijo.webp);
+    background-position: center;
+}
+
+.recomendadosParaVoce {
+    position: relative;
+    padding: 5px;
+    height: 175px;
+    width: 360px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.titulo-recomendados {
+    color: #fff;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.50);
+    font-size: 20px;
+}
+
+.recomendadosHolder {
+    height: 180px;
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+}
+
+.recomendadosHolder::-webkit-scrollbar {
+    display: none;
+}
+
+.recomendados {
+    height: 130px;
+    width: 360px;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row nowrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.itens-recomendados {
+    height: 120px;
+    width: 200px;
+    overflow: hidden;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+
+.fundo-preto-recomendados {
+    position: relative;
+    margin-top: -48px;
+    height: 48px;
+    width: 160px;
+    background-color: #000;
+    opacity: 0.6;
+    border-bottom-left-radius: 8px;
+}
+
+.nome-recomendados {
+    position: relative;
+    margin-top: -42px;
+    margin-left: 10px;
+    height: 48px;
+    width: 150px;
+    color: #fff;
+    opacity: 1;
+    font-size: 7px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.preco-recomendados {
+    position: relative;
+    margin-top: -90px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 8px;
+}
+
+.img-brotinho-com-queijo-e-tomate {
+    height: 120px;
+    width: 200px;
+    background-size: cover;
+    background-image: url(../img/webp/pizza-brotinho-com-queijo-e-tomate.webp);
+    background-position: center;
+}
+
+.img-peperoni-com-queijo-e-tomate {
+    height: 120px;
+    width: 200px;
+    background-size: cover;
+    background-image: url(../img/webp/pizza-de-peperoni-com-queijo-e-tomate.webp);
+    background-position: center;
+}
+
+.todasBebidas {
+    position: relative;
+    padding: 5px;
+    height: 200px;
+    width: 360px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.titulo-bebidas {
+    color: #fff;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.50);
+    font-size: 20px;
+}
+
+.bebidasHolder {
+    height: 180px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.bebidasHolder::-webkit-scrollbar {
+    display: none;
+}
+
+.bebidasMenu {
+    height: 160px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column nowrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.itens-bebidas {
+    background-color: #fff;
+    height: 70px;
+    width: 345px;
+    overflow: hidden;
+    flex-shrink: 0;
+    border-radius: 8px;
+    display: grid;
+    grid-template-areas: 
+    "imgBebidas nomeBebida"
+    "imgBebidas descricaoBebidas"
+    "imgBebidas descricaoBebidas precoBebidas";
+}
+
+.nomeBebida {
+    position: relative;
+    margin-top: 9px;
+    margin-left: 45px;
+    height: 48px;
+    width: 160px;
+    color: #000;
+    opacity: 1;
+    font-size: 9px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.descricaoBebidas{
+    position: relative;
+    margin-top: -35px;
+    margin-left: 45px;
+    height: 40px;
+    width: 150px;
+    color: #000;
+    opacity: 1;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.precoBebidas {
+    position: relative;
+    margin-top: -40px;
+    margin-left: 255px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+
+.cocaCola .imgBebidas {
+    position: relative;
+    margin-top: -50px;
+    height: 58px;
+    width: 42px;
+    background-size: cover;
+    background-image: url(../img/webp/coca-cola.webp);
+    background-position: center;
+}
+
+.heineken .imgBebidas {
+    position: relative;
+    margin-top: -50px;
+    height: 58px;
+    width: 42px;
+    background-size: cover;
+    background-image: url(../img/webp/heineken.webp);
     background-position: center;
 }
