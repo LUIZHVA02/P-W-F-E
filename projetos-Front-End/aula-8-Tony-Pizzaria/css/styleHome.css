@@ -3,7 +3,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 24px 24px 24px 24px;
+    padding: 24px 24px 0px 24px;
     font-family: 'Roboto', sans-serif;
     flex-shrink: 0;
     gap: 10px;
@@ -20,25 +20,26 @@ body::after {
 }
 
 .bodyHolder{
-    height: 810px;
-    width: 410px;
+    height: 100vh;
+    width: 98vw;
     display: flex;
     flex-direction: column;
-    overflow-y: auto;
+    overflow-y: scroll;
 }
 
-.categoriaHolder::-webkit-scrollbar {
+.bodyHolder::-webkit-scrollbar {
     display: none;
 }
 
 .todoSite {
-    height: 810px;
-    width: 410px;
+    height: 100%;
+    width: 98vw;
     display: flex;
     flex-direction: column;
     flex-flow: column nowrap;
     gap: 10px;
     align-items: center;
+    overflow: scroll;
 }
 
 header {
@@ -541,4 +542,61 @@ main{
     background-size: cover;
     background-image: url(../img/webp/heineken.webp);
     background-position: center;
+}
+
+.footer{
+    position: relative;
+    height: 10vh;
+    width: 100vw;
+    background-color: var(--cor-principal);
+    z-index: 2;
+    display: flex;
+    flex-direction: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.perfilFooter{
+    position: relative;
+    width: 130px;
+    height: 80px;
+    background-color: red;
+
+}
+.imgPerfilFooter{
+    height: 48px;
+    width:48px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../img/webp/icone-perfil.webp');
+}
+.tituloPerfilF{
+    font-size: 12px;
+}
+
+.bebidasFooter{
+    position: relative;
+    width: 65px;
+    height: 40px;
+    background-color: red;
+}
+.imgBebidasFooter{
+    background-image: url('../img/webp/beer-Mug.webp');
+}
+.tituloBebidasF{
+    font-size: 12px;
+}
+
+.sobremesasFooter{
+    position: relative;
+    width: 65px;
+    height: 40px;
+    background-color: red;
+}
+.imgSobremesasFooter{
+    background-image: url('../img/webp/kawaii-Cupcake.webp');
+
+}
+.tituloSobremesasF{
+    font-size: 12px;
 }
