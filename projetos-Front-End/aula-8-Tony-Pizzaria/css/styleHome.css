@@ -3,35 +3,65 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 32px 32px;
+    padding: 24px 24px 24px 24px;
     font-family: 'Roboto', sans-serif;
+    flex-shrink: 0;
+    gap: 10px;
+    margin: 0 auto;
 }
 
 body::after {
     position: absolute;
+    height: 100vh;
     content: "";
     inset: 0;
     background: linear-gradient(0deg, #fff0 0%, rgba(322, 119, 6, 1) 158%);
     z-index: -1;
 }
 
+.bodyHolder{
+    height: 810px;
+    width: 410px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.categoriaHolder::-webkit-scrollbar {
+    display: none;
+}
+
+.todoSite {
+    height: 810px;
+    width: 410px;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column nowrap;
+    gap: 10px;
+    align-items: center;
+}
+
 header {
-    width: max-content;
-    height: 150px;
+    position: relative;
+    width: 350px;
+    height: 140px;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 .conteudo_header {
-    width: max-content;
-    height: max-content;
+    position: relative;
+    width: 350px;
+    height: 140px;
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 10px;
+    gap: 16px;
 }
 
 .perfil {
-    width: 360px;
+    width: 350px;
     height: 70px;
     display: flex;
     justify-content: space-between;
@@ -66,7 +96,7 @@ header {
 }
 
 .barra_pesquisa {
-    width: 360px;
+    width: 350px;
     height: 50px;
     display: flex;
     justify-content: space-between;
@@ -103,6 +133,13 @@ header {
 #imgLupa {
     width: 32px;
     height: 32px;
+}
+
+main{
+    position: absolute;
+    width: 360px;
+    height: 660px;
+    margin-top: 150px;
 }
 
 .carrosselCategorias {
@@ -200,6 +237,7 @@ header {
 }
 
 .minhas-pizzas-favoritas {
+    position: relative;
     padding: 5px;
     height: 175px;
     width: 360px;

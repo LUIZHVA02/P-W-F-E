@@ -13,231 +13,238 @@
 </head>
 
 <body>
-    <header>
-        <div class="conteudo_header">
-            <div class="perfil">
-                <div class="texto_perfil">
-                    <h1>Home</h1>
-                    <p>Bom dia, Celso</p>
-                </div>
-                <div class="img_perfil">
-                    <img src="../img/webp/smiling-man.webp" alt="foto_de_perfil" id="fotoPerfil">
-                </div>
-            </div>
-            <div class="barra_pesquisa">
-                <input type="search" name="barra_de_pesquisa" id="barra_pesquisa"
-                    placeholder="Buscar algo para matar a minha fome">
-                <div class="divLupa">
-                    <img src="../img/webp/lupa.webp" alt="lupa" id="imgLupa">
-                </div>
-            </div>
-        </div>
-    </header>
+    <div class="bodyHolder">
+        <div class="todoSite">
 
-    <main>
-        <div class="carrosselCategorias">
+            <header>
+                <div class="conteudo_header">
+                    <div class="perfil">
+                        <div class="texto_perfil">
+                            <h1>Home</h1>
+                            <p>Bom dia, Celso</p>
+                        </div>
+                        <div class="img_perfil">
+                            <img src="../img/webp/smiling-man.webp" alt="foto_de_perfil" id="fotoPerfil">
+                        </div>
+                    </div>
+                    <div class="barra_pesquisa">
+                        <input type="search" name="barra_de_pesquisa" id="barra_pesquisa"
+                            placeholder="Buscar algo para matar a minha fome">
+                        <div class="divLupa">
+                            <img src="../img/webp/lupa.webp" alt="lupa" id="imgLupa">
+                        </div>
+                    </div>
+                </div>
+            </header>
 
-            <h1 class="titulo-categorias">Categorias</h1>
+            <main>
+                <div class="carrosselCategorias">
 
-            <!-- 
+                    <h1 class="titulo-categorias">Categorias</h1>
+
+                    <!-- 
             use no modelo desktop
             https://www.youtube.com/watch?v=QAD0K112tlQ
             <button class="arrow_right" aria-label="item-posterior">></button>
             <button class="arrow_left" aria-label="item-anterior"><</button> -->
 
-            <div class="categoriaHolder">
-                <div class="categorias">
+                    <div class="categoriaHolder">
+                        <div class="categorias">
 
-                    <div class="tudo item_categoria">
-                        <img src="../img/webp/logo.webp" alt="logo_pequeno" id="logo_pequeno-img"
-                            class="img-logo_pequeno img-categoria">
-                    </div>
+                            <div class="tudo item_categoria">
+                                <img src="../img/webp/logo.webp" alt="logo_pequeno" id="logo_pequeno-img"
+                                    class="img-logo_pequeno img-categoria">
+                            </div>
 
-                    <div class="bebidas item_categoria">
-                        <img src="../img/webp/kawaii-Soda.webp" alt="bebidas" id="bebidas-img"
-                            class="img-bebidas img-categoria">
-                    </div>
+                            <div class="bebidas item_categoria">
+                                <img src="../img/webp/kawaii-Soda.webp" alt="bebidas" id="bebidas-img"
+                                    class="img-bebidas img-categoria">
+                            </div>
 
-                    <div class="acompanhamentos item_categoria">
-                        <img src="../img/webp/watermelon.webp" alt="acompanhamentos" id="acompanhamentos-img"
-                            class="img-acompanhamentos img-categoria">
-                    </div>
+                            <div class="acompanhamentos item_categoria">
+                                <img src="../img/webp/watermelon.webp" alt="acompanhamentos" id="acompanhamentos-img"
+                                    class="img-acompanhamentos img-categoria">
+                            </div>
 
-                    <div class="pizzas item_categoria">
-                        <img src="../img/webp/pizza.webp" alt="pizza" id="pizza-img" class="img-pizza img-categoria">
-                    </div>
+                            <div class="pizzas item_categoria">
+                                <img src="../img/webp/pizza.webp" alt="pizza" id="pizza-img"
+                                    class="img-pizza img-categoria">
+                            </div>
 
-                    <div class="sobremesas_maiores item_categoria">
-                        <img src="../img/webp/ice-Cream-Sundae.webp" alt="sobremesas_maiores"
-                            id="sobremesas_maiores-img" class="img-sobremesas_maiores img-categoria">
-                    </div>
+                            <div class="sobremesas_maiores item_categoria">
+                                <img src="../img/webp/ice-Cream-Sundae.webp" alt="sobremesas_maiores"
+                                    id="sobremesas_maiores-img" class="img-sobremesas_maiores img-categoria">
+                            </div>
 
-                    <div class="sobremesas_menores item_categoria">
-                        <img src="../img/webp/kawaii-Ice-Cream.webp" alt="sobremesas_menores"
-                            id="sobremesas_menores-img" class="img-sobremesas_menores img-categoria">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="minhas-pizzas-favoritas">
-            <h1 class="titulo-pizzas-favoritas">Minhas pizzas favoritas</h1>
-
-            <div class="pizzas-holder">
-                <div class="pizzas-favoritas">
-
-                    <div class="calabreza-queijo itens_favoritos">
-
-                        <div class="img-calabreza-queijo"></div>
-
-                        <div class="fundoPreto-favoritos"></div>
-                        <div class="nome-pizza-favoritos">
-                            <h1>Pizza de calabreza com queijo</h1>
-                        </div>
-
-                        <div class="preco-pizza-favoritos preco_config">
-                            <h1>R$ 16,00</h1>
-                        </div>
-                    </div>
-
-                    <div class="peperoni-com-queijo itens_favoritos">
-                        <div class="img-peperoni-com-queijo"></div>
-
-                        <div class="fundoPreto-favoritos"></div>
-
-                        <div class="nome-pizza-favoritos">
-                            <h1>Pizza de peperoni com queijo</h1>
-                        </div>
-
-                        <div class="preco-pizza-favoritos preco_config">
-                            <h1>R$ 19,00</h1>
-                        </div>
-                    </div>
-
-                    <div class="brotinho-calabreza itens_favoritos">
-                        <div class="img-brotinho-calabreza"></div>
-
-                        <div class="fundoPreto-favoritos"></div>
-
-                        <div class="nome-pizza-favoritos">
-                            <h1>Pizza brotinho de calabreza com queijo</h1>
-                        </div>
-
-                        <div class="preco-pizza-favoritos preco_config">
-                            <h1>R$ 17,00</h1>
+                            <div class="sobremesas_menores item_categoria">
+                                <img src="../img/webp/kawaii-Ice-Cream.webp" alt="sobremesas_menores"
+                                    id="sobremesas_menores-img" class="img-sobremesas_menores img-categoria">
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
 
-        <div class="recomendadosParaVoce">
-            <h1 class="titulo-recomendados">Recomendados para você</h1>
+                <div class="minhas-pizzas-favoritas">
+                    <h1 class="titulo-pizzas-favoritas">Minhas pizzas favoritas</h1>
 
-            <div class="recomendadosHolder">
-                <div class="recomendados">
-                    <div class="pizza-de-peperoni-com-queijo-e-tomate itens-recomendados">
-                        <div class="img-peperoni-com-queijo-e-tomate"></div>
-                        <div class="fundo-preto-recomendados"></div>
-                        <div class="nome-recomendados">
-                            <h1>Pizza de peperoni com queijo e tomate</h1>
-                        </div>
-                        <div class="preco-recomendados preco_config">
-                            <h1>R$ 17,00</h1>
-                        </div>
-                    </div>
+                    <div class="pizzas-holder">
+                        <div class="pizzas-favoritas">
 
-                    <div class="pizza-de-brotinho-com-queijo-e-tomate itens-recomendados">
-                        <div class="img-brotinho-com-queijo-e-tomate"></div>
-                        <div class="fundo-preto-recomendados"></div>
-                        <div class="nome-recomendados">
-                            <h1>Pizza brotinho com queijo e tomate</h1>
-                        </div>
-                        <div class="preco-recomendados preco_config">
-                            <h1>R$ 12,00</h1>
-                        </div>
-                    </div>
+                            <div class="calabreza-queijo itens_favoritos">
 
-                    <div class="pizza-de-peperoni-com-queijo-e-tomate itens-recomendados">
-                        <div class="img-peperoni-com-queijo-e-tomate"></div>
-                        <div class="fundo-preto-recomendados"></div>
-                        <div class="nome-recomendados">
-                            <h1>Pizza de peperoni com queijo e tomate</h1>
-                        </div>
-                        <div class="preco-recomendados preco_config">
-                            <h1>R$ 17,00</h1>
-                        </div>
-                    </div>
+                                <div class="img-calabreza-queijo"></div>
 
-                    <div class="pizza-de-brotinho-com-queijo-e-tomate itens-recomendados">
-                        <div class="img-brotinho-com-queijo-e-tomate"></div>
-                        <div class="fundo-preto-recomendados"></div>
-                        <div class="nome-recomendados">
-                            <h1>Pizza brotinho com queijo e tomate</h1>
-                        </div>
-                        <div class="preco-recomendados preco_config">
-                            <h1>R$ 12,00</h1>
-                        </div>
-                    </div>
+                                <div class="fundoPreto-favoritos"></div>
+                                <div class="nome-pizza-favoritos">
+                                    <h1>Pizza de calabreza com queijo</h1>
+                                </div>
 
-                </div>
-            </div>
-        </div>
+                                <div class="preco-pizza-favoritos preco_config">
+                                    <h1>R$ 16,00</h1>
+                                </div>
+                            </div>
 
-        <div class="todasBebidas">
-            <h1 class="titulo-bebidas">Bebidas</h1>
+                            <div class="peperoni-com-queijo itens_favoritos">
+                                <div class="img-peperoni-com-queijo"></div>
 
-            <div class="bebidasHolder">
+                                <div class="fundoPreto-favoritos"></div>
 
-                <div class="bebidasMenu">
+                                <div class="nome-pizza-favoritos">
+                                    <h1>Pizza de peperoni com queijo</h1>
+                                </div>
 
-                    <div class="itens-bebidas cocaCola">
-                        <div class="nomeBebida">
-                            <h1>Coca Cola 2L</h1>
-                        </div>
-                        <div class="imgBebidas"></div>
-                        <div class="descricaoBebidas">
-                            <p>Refrigerante Garrafa 3l Embalagem Econômica</p>
-                        </div>
-                        <div class="precoBebidas preco_config">R$ 14,99</div>
-                    </div>
+                                <div class="preco-pizza-favoritos preco_config">
+                                    <h1>R$ 19,00</h1>
+                                </div>
+                            </div>
 
-                    <div class="itens-bebidas cocaCola">
-                        <div class="nomeBebida">
-                            <h1>Coca Cola 2L</h1>
-                        </div>
-                        <div class="imgBebidas"></div>
-                        <div class="descricaoBebidas">
-                            <p>Refrigerante Garrafa 3l Embalagem Econômica</p>
-                        </div>
-                        <div class="precoBebidas preco_config">R$ 14,99</div>
-                    </div>
+                            <div class="brotinho-calabreza itens_favoritos">
+                                <div class="img-brotinho-calabreza"></div>
 
-                    <div class="itens-bebidas heineken">
-                        <div class="nomeBebida">
-                            <h1>Cerveja Heineken</h1>
-                        </div>
-                        <div class="imgBebidas"></div>
-                        <div class="descricaoBebidas">
-                            <p>Refrigerante Garrafa 3l Embalagem Econômica</p>
-                        </div>
-                        <div class="precoBebidas preco_config">R$ 17,99</div>
-                    </div>
+                                <div class="fundoPreto-favoritos"></div>
 
-                    <div class="itens-bebidas heineken">
-                        <div class="nomeBebida">
-                            <h1>Cerveja Heineken</h1>
+                                <div class="nome-pizza-favoritos">
+                                    <h1>Pizza brotinho de calabreza com queijo</h1>
+                                </div>
+
+                                <div class="preco-pizza-favoritos preco_config">
+                                    <h1>R$ 17,00</h1>
+                                </div>
+                            </div>
                         </div>
-                        <div class="imgBebidas"></div>
-                        <div class="descricaoBebidas">
-                            <p>Refrigerante Garrafa 3l Embalagem Econômica</p>
-                        </div>
-                        <div class="precoBebidas preco_config">R$ 17,99</div>
                     </div>
                 </div>
-            </div>
+
+                <div class="recomendadosParaVoce">
+                    <h1 class="titulo-recomendados">Recomendados para você</h1>
+
+                    <div class="recomendadosHolder">
+                        <div class="recomendados">
+                            <div class="pizza-de-peperoni-com-queijo-e-tomate itens-recomendados">
+                                <div class="img-peperoni-com-queijo-e-tomate"></div>
+                                <div class="fundo-preto-recomendados"></div>
+                                <div class="nome-recomendados">
+                                    <h1>Pizza de peperoni com queijo e tomate</h1>
+                                </div>
+                                <div class="preco-recomendados preco_config">
+                                    <h1>R$ 17,00</h1>
+                                </div>
+                            </div>
+
+                            <div class="pizza-de-brotinho-com-queijo-e-tomate itens-recomendados">
+                                <div class="img-brotinho-com-queijo-e-tomate"></div>
+                                <div class="fundo-preto-recomendados"></div>
+                                <div class="nome-recomendados">
+                                    <h1>Pizza brotinho com queijo e tomate</h1>
+                                </div>
+                                <div class="preco-recomendados preco_config">
+                                    <h1>R$ 12,00</h1>
+                                </div>
+                            </div>
+
+                            <div class="pizza-de-peperoni-com-queijo-e-tomate itens-recomendados">
+                                <div class="img-peperoni-com-queijo-e-tomate"></div>
+                                <div class="fundo-preto-recomendados"></div>
+                                <div class="nome-recomendados">
+                                    <h1>Pizza de peperoni com queijo e tomate</h1>
+                                </div>
+                                <div class="preco-recomendados preco_config">
+                                    <h1>R$ 17,00</h1>
+                                </div>
+                            </div>
+
+                            <div class="pizza-de-brotinho-com-queijo-e-tomate itens-recomendados">
+                                <div class="img-brotinho-com-queijo-e-tomate"></div>
+                                <div class="fundo-preto-recomendados"></div>
+                                <div class="nome-recomendados">
+                                    <h1>Pizza brotinho com queijo e tomate</h1>
+                                </div>
+                                <div class="preco-recomendados preco_config">
+                                    <h1>R$ 12,00</h1>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="todasBebidas">
+                    <h1 class="titulo-bebidas">Bebidas</h1>
+
+                    <div class="bebidasHolder">
+
+                        <div class="bebidasMenu">
+
+                            <div class="itens-bebidas cocaCola">
+                                <div class="nomeBebida">
+                                    <h1>Coca Cola 2L</h1>
+                                </div>
+                                <div class="imgBebidas"></div>
+                                <div class="descricaoBebidas">
+                                    <p>Refrigerante Garrafa 3l Embalagem Econômica</p>
+                                </div>
+                                <div class="precoBebidas preco_config">R$ 14,99</div>
+                            </div>
+
+                            <div class="itens-bebidas cocaCola">
+                                <div class="nomeBebida">
+                                    <h1>Coca Cola 2L</h1>
+                                </div>
+                                <div class="imgBebidas"></div>
+                                <div class="descricaoBebidas">
+                                    <p>Refrigerante Garrafa 3l Embalagem Econômica</p>
+                                </div>
+                                <div class="precoBebidas preco_config">R$ 14,99</div>
+                            </div>
+
+                            <div class="itens-bebidas heineken">
+                                <div class="nomeBebida">
+                                    <h1>Cerveja Heineken</h1>
+                                </div>
+                                <div class="imgBebidas"></div>
+                                <div class="descricaoBebidas">
+                                    <p>Refrigerante Garrafa 3l Embalagem Econômica</p>
+                                </div>
+                                <div class="precoBebidas preco_config">R$ 17,99</div>
+                            </div>
+
+                            <div class="itens-bebidas heineken">
+                                <div class="nomeBebida">
+                                    <h1>Cerveja Heineken</h1>
+                                </div>
+                                <div class="imgBebidas"></div>
+                                <div class="descricaoBebidas">
+                                    <p>Refrigerante Garrafa 3l Embalagem Econômica</p>
+                                </div>
+                                <div class="precoBebidas preco_config">R$ 17,99</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+
         </div>
-    </main>
+    </div>
 </body>
 
 </html>
