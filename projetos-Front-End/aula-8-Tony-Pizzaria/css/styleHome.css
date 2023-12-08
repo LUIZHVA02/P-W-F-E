@@ -88,15 +88,14 @@ body::after {
 }
 
 .img_perfil {
-    height: 64px;
-    width: 64px;
     border-radius: 100%;
     overflow: hidden;
-}
-
-#fotoPerfil {
     height: 64px;
     width: 64px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/webp/smiling-man.webp);
+
 }
 
 .barra_pesquisa {
@@ -574,7 +573,7 @@ main{
 
 .footer{
     position: relative;
-    height: 10vh;
+    height: 80px;
     width: 100vw;
     padding: 5px ;
     background-color: var(--cor-principal);
