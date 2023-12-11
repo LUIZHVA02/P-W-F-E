@@ -572,7 +572,7 @@ main{
 }
 
 .footer{
-    position: relative;
+    position: static;
     height: 80px;
     width: 100vw;
     padding: 5px ;
